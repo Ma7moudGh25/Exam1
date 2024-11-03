@@ -1,0 +1,271 @@
+*{
+  font-family: "Poppins", sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+  font-weight: bold;
+  font-family: "Montserrat",sans-serif;
+}
+/* navbar */
+li a::after{
+  content: '';
+  position: absolute;
+  width:0;
+  height: 2px;
+  bottom: 0px;
+  right: 1px;
+  background-color: black;
+  transition: all .5s ease;
+}
+li a:hover::after{
+  content: '';
+  position: absolute;
+  width:100%;
+  height: 2px;
+  bottom: 0px;
+  right: 1px;
+  background-color: black;
+}
+/* home */
+header{
+  background-image: url(../images/imgs/bg.jpg);
+  background-size: cover;
+  background-position: center;
+ 
+}
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+
+}
+.link{
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-inline: 2px;
+  cursor: pointer;
+}
+.person::after {  content: "";  animation: typing 12s linear infinite;}@keyframes typing {  0% {content: "";}  0.6410256410256411% {content: "L";}
+  1.2820512820512822% {content: "La";}
+  1.9230769230769234% {content: "Lar";}
+  2.5641025641025643% {content: "Larr";}
+  3.2051282051282053% {content: "Larry";}
+  3.8461538461538467% {content: "Larry ";}
+  4.487179487179487% {content: "Larry D";}
+  5.128205128205129% {content: "Larry Da";}
+  5.76923076923077% {content: "Larry Dan";}
+  6.410256410256411% {content: "Larry Dani";}
+  7.051282051282052% {content: "Larry Danie";}
+  7.692307692307693% {content: "Larry Daniel";}
+  8.333333333333334% {content: "Larry Daniels";}
+  24.35897435897436% {content: "Larry Daniels";}
+  25% {content: "Larry Daniel";}
+  25.641025641025642% {content: "Larry Danie";}
+  26.282051282051285% {content: "Larry Dani";}
+  26.923076923076927% {content: "Larry Dan";}
+  27.564102564102566% {content: "Larry Da";}
+  28.205128205128208% {content: "Larry D";}
+  28.846153846153847% {content: "Larry ";}
+  29.48717948717949% {content: "Larry";}
+  30.12820512820513% {content: "Larr";}
+  30.76923076923077% {content: "Lar";}
+  31.410256410256412% {content: "La";}
+  32.05128205128205% {content: "L";}
+  33.333333333333336% {content: "";}
+  34.25925925925926% {content: "D";}
+  35.18518518518519% {content: "De";}
+  36.111111111111114% {content: "Dev";}
+  37.03703703703704% {content: "Deve";}
+  37.96296296296296% {content: "Devel";}
+  38.88888888888889% {content: "Develo";}
+  39.81481481481482% {content: "Develop";}
+  40.74074074074075% {content: "Develope";}
+  41.66666666666667% {content: "Developer";}
+  57.40740740740741% {content: "Developer";}
+  58.333333333333336% {content: "Develope";}
+  59.25925925925927% {content: "Develop";}
+  60.18518518518519% {content: "Develo";}
+  61.111111111111114% {content: "Devel";}
+  62.03703703703704% {content: "Deve";}
+  62.96296296296297% {content: "Dev";}
+  63.88888888888889% {content: "De";}
+  64.81481481481482% {content: "D";}
+  66.66666666666667% {content: "";}
+  67.70833333333334% {content: "D";}
+  68.75% {content: "De";}
+  69.79166666666667% {content: "Des";}
+  70.83333333333334% {content: "Desi";}
+  71.875% {content: "Desig";}
+  72.91666666666667% {content: "Design";}
+  73.95833333333334% {content: "Designe";}
+  75% {content: "Designer";}
+  90.625% {content: "Designer";}
+  91.66666666666667% {content: "Designe";}
+  92.70833333333333% {content: "Design";}
+  93.75% {content: "Desig";}
+  94.79166666666667% {content: "Desi";}
+  95.83333333333333% {content: "Des";}
+  96.875% {content: "De";}
+  97.91666666666667% {content: "D";}
+  100% {content: "";}
+}
+/* about */
+.first:hover{
+  color: black !important;
+  background-color: white !important;
+}
+.second:hover{
+  color: white !important;
+  background-color: black !important;
+}
+/* services */
+#ser{
+  background-color: #f7f7f7 ;
+}
+.icon{
+background-color: #f4f4f4;
+width: 70px;
+height: 70px;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.box:hover .icon{
+  background-color: black;
+  color: white;
+}
+/* work */
+h5{
+  cursor: pointer;
+}
+.overlay1{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+
+}
+.circle{
+  background-color: black;
+  color: white;
+  height: 25px;
+  width: 25px;
+  border: 1px solid black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circle:hover{
+  background-color: white;
+  color: black;
+}
+.image:hover .overlay1{
+  opacity: 1;
+}
+
+/* clients */
+
+#clients{
+  background-color: #f7f7f7;
+}
+.carousel-indicators [data-bs-target]{
+  position: relative;
+  bottom: -80px;
+  width: 30px;
+  height: 30px;
+  margin:10px;
+  border-radius: 50% !important;
+}
+.client-item img{
+  width:100px;
+  height: 100px;
+  border-radius: 50%;
+}
+/* stats */
+.stats{
+  height: 40vh;
+}
+.stats .container .stat{
+  position: relative;
+  top:50px;
+}
+/* team */
+#team{
+  background-color: #f5f5f5;
+}
+.inner{
+  background-color: #5b5b5b;
+}
+.img-overlay{
+  
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  transform: rotate-X(90deg);
+  transition: all 1s;
+}
+.inner:hover .img-overlay{
+  opacity: 1;
+  transform: rotate-X(270deg);
+}
+/* contact us */
+.item:hover .icon{
+  background-color: #1c1c1c;
+  color: white;
+}
+
+  input{
+    background-color: #f4f4f4;
+    border: none;
+    border-radius: 10px;
+    margin: auto;
+    font-size: 20px;
+    width:49%;
+  }
+
+
+textarea{
+  background-color: #f4f4f4;
+  border: none;
+  border-radius: 10px;
+  margin: auto;
+  width: 99%;
+}
+.sub-btn{
+  background-color: #1c1c1c;
+  color: white;
+  border: 1px solid black;
+}
+/* footer */
+footer{
+  background-color: #1c1c1c;
+  color: #363f43;
+  height: 20vh;
+}
+.copy{
+  position: relative;
+  top:60px;
+ 
+}
